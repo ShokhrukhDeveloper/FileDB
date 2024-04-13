@@ -1,3 +1,5 @@
+using System;
+
 namespace FileDb.Models;
 
 public class User

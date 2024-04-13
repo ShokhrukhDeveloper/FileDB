@@ -1,3 +1,5 @@
+using System;
+
 namespace FileDb.Brokers.Logging;
 
 public interface ILoggingBroker
