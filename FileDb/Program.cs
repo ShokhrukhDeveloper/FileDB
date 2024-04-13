@@ -45,7 +45,7 @@ public class Program
         Console.WriteLine("----------------Begins-of--User-list--------------------");
         foreach (var user in users)
         {
-            Console.Write(user);
+            Console.Write(user+"\n");
         }
         Console.WriteLine("------------------End-of--User-list--------------------");
     }
@@ -106,7 +106,7 @@ public class Program
     }
     private static IUserProcessService InitializeService()
     {
-                IStorageBroker storageBroker = new FileStorageBroker();
+                IStorageBroker storageBroker = new JSONStorageBroker();
                 ILoggingBroker loggingBroker = new LoggingBroker();
                 IUserService userService = new UserService(loggingBroker,storageBroker);
                 IIdentityService identityService = IdentityService.GetInstance(storageBroker);
