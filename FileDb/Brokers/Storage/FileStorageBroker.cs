@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -34,7 +35,7 @@ public class FileStorageBroker : IStorageBroker
 
     public User InsertUser(User user)
     {
-        File.AppendAllText(fileName, user.ToString());
+        File.AppendAllText(fileName, $"{user}{Environment.NewLine}");
         return user;
     }
 
@@ -60,7 +61,11 @@ public class FileStorageBroker : IStorageBroker
     private User ToModel(string text)
     {
         string[] data= text.Split(':');
-        return new User(data[1]);
+        return new User()
+        {
+            Id = Convert.ToInt32(data[0]),
+            Name = data[1]
+        };
     }
     private void EnsureFileExists()
     {

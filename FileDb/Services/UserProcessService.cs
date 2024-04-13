@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using FileDb.Models;
 
 namespace FileDb.Services;
@@ -21,7 +22,7 @@ public class UserProcessService  : IUserProcessService
         return user;
     }
 
-    public void DisplayUsers() =>
+    public List<User> GetAllUsers() =>
         this.userService.GetAllUser();
 
     public User DeleteUser(User user)

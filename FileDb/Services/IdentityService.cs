@@ -14,15 +14,15 @@ public class IdentityService : IIdentityService
 
     public int GetNewId()
     {
-        if (!storageBroker.
-            ReadAllUsers().Any())
+        if (storageBroker.
+            ReadAllUsers().Count()==0)
         {
             return 1;
         }
        return storageBroker.
                  ReadAllUsers().
                  Last().
-                 Id++;
+                 Id+1;
     }
 
     

@@ -22,6 +22,6 @@ public class User
     public string Name { get; set; }
     public override string ToString()
     {
-        return $"{Id}:{Name}{Environment.NewLine}";
+        return $"{Id}:{Name}";
     }
 }
