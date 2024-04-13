@@ -1,0 +1,14 @@
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\bin\Debug\net8.0\FileDb.exe
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\bin\Debug\net8.0\FileDb.deps.json
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\bin\Debug\net8.0\FileDb.runtimeconfig.json
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\bin\Debug\net8.0\FileDb.dll
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\bin\Debug\net8.0\FileDb.pdb
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.AssemblyInfoInputs.cache
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.AssemblyInfo.cs
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.csproj.CoreCompileInputs.cache
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.dll
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\refint\FileDb.dll
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.pdb
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\FileDb.genruntimeconfig.cache
+C:\Users\Shokhrukh\RiderProjects\FileDb\FileDb\obj\Debug\net8.0\ref\FileDb.dll
