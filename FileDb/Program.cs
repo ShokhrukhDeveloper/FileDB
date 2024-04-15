@@ -15,7 +15,6 @@ public class Program
     {
         userProcess = InitializeService();
         bool running = true;
-
         do
         {
             int input = InputUser();

@@ -1,10 +1,12 @@
 using System.Collections.Generic;
+using FileDb.Brokers.Storage;
 using FileDb.Models;
 
 namespace FileDb.Services;
 
 public class UserProcessService  : IUserProcessService
 {
+    private readonly IFolderSizeBroker folderSizeBoker;
     private readonly IUserService userService;
     private readonly IIdentityService identityService;
 
@@ -13,6 +15,7 @@ public class UserProcessService  : IUserProcessService
     {
         this.userService = userService;
         this.identityService = identitiyService;
+        this.folderSizeBoker = new FolderSizeBroker();
     }
 
     public User CreateNewUser(User user)
@@ -33,5 +36,10 @@ public class UserProcessService  : IUserProcessService
     public User UpdateUser(User user)
     {
       return  this.userService.UpdateUser(user);
+    }
+
+    long GetFolderSize()
+    {
+      return  folderSizeBoker.GetFolderSize("../../../");
     }
 }
